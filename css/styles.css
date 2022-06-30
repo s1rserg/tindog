@@ -198,7 +198,7 @@ margin: -1% auto 5%;
   color: #ff4c68;
 }
  /* media queries */
- @media only screen and (max-width: 1200px){
+ @media only screen and (min-width: 721px) and (max-width: 1200px){
    #title{
      text-align: center;
    }
@@ -214,4 +214,28 @@ margin: -1% auto 5%;
      position: static;
      transform: rotate(0);
    }
+   #features{
+     padding: 7% 3%;
+   }
+   .features--column{
+     padding: 0 1%;
+     font-size: 200%;
+   }
+   .features--column h3{
+     font-size: 110%;
+   }
+   .testimonials__img{
+     width: 10%;
+   }
+   .testimonial__name{
+     font-size: 160%;
+   }
+   .press__img{
+      width: 20%;
+   }
  }
+  @media only screen and (max-width: 720px){
+    .title__image{
+      display: none;
+    }
+  }
